@@ -97,7 +97,7 @@ public class SquareMaze {
 	  * @param labirynth - tablica dwuwymiarowa zawierająca informacje o labiryncie
 	  */
 	 public void generateOutputData(int[][] labirynth){
-		 new DrawSquareToConsole().simpleLabiryntDrawyer(labirynth, width, height);
+		 new DrawSquareToConsole().simpleLabiryntDrawyerEasy(labirynth, width, height);
 		 //new DrawSquareToConsole().simpleLabiryntDrawyerForProcessing(labirynth, width, height);
 	 }
 	 
