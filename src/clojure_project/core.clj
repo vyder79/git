@@ -1,9 +1,14 @@
-(ns clojure-project.core)
+(ns vyder.core)
 
-(defn foo
+(defn function1
   "I don't do a whole lot."
   [x]
   (println x "Hello, World!"))
 
-(def name "Tomek")
+(def nameMy "Tomek")
+
+(function1 nameMy)
+
+
+
 
